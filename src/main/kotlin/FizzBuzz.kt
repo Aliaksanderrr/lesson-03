@@ -5,9 +5,9 @@ private const val FIZZ = "Fizz"
 private const val BUZZ = "Buzz"
 private const val FIZZ_BUZZ = "$FIZZ $BUZZ"
 
-fun main(arg: Array<String>){
-    for (i in 1..100){
-        when{
+fun main() {
+    for (i in 1..100) {
+        when {
             isBuzz(i) && isFizz(i) -> println(FIZZ_BUZZ)
             isFizz(i) -> println(FIZZ)
             isBuzz(i) -> println(BUZZ)
