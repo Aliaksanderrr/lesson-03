@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     val list1 = intArrayOf(-2, 1, 7, 11, 17, 25, 48, 103)
     val list2 = intArrayOf(0, 1, 3, 5, 13, 107)
     val result = merge(list1, list2)

@@ -1,6 +1,6 @@
 private val MULTIPLES = intArrayOf(3, 5)
 
-fun main(args: Array<String>) {
+fun main() {
 
     var sum = 0
     for (num in 1 until 1000) {
